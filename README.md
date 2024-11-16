@@ -1,5 +1,5 @@
 # Fatec
-Repositório dedicado aos estudos do curso de "Desenvolvimento de Software Multiplataforma", ministrado por professores de exelência.
+<h2>Repositório dedicado aos estudos do curso de "Desenvolvimento de Software Multiplataforma", ministrado por professores de exelência.</h2>
 
 Não me considero o melhor aluno, o aluno que tira notas boas sempre, o aluno que sempre presta 100% de atenção em todas as aulas, porem sou muito decicado e sempre busco dar meu melhor.
 
