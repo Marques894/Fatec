@@ -1,0 +1,22 @@
+#home {
+	background: #2750aa;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 200px;
+}
+
+#container{
+	display: flex;
+	flex-direction: column;
+}
+
+.caixa {
+	padding: 60px 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+footer p a {
+	margin: 5px 15px;
+}

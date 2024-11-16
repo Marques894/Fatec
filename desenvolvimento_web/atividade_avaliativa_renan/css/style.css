@@ -1,0 +1,37 @@
+header{
+    background-color: #333;
+}
+
+#acessos{
+    display: flex;
+    gap: 200px;
+    padding: 20px;
+}
+
+#acessos a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#acessos a:hover{
+    color: #9e100c;
+}
+
+main{
+    background-color: #9e100c;
+}
+
+#cards{
+    gap: 30px;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+}
+
+#icons{
+    display: flex;
+    gap: 20px;
+}
