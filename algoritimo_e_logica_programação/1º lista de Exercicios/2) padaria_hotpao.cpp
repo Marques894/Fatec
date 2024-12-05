@@ -6,20 +6,20 @@
 
 using namespace std; 
 
-int main(int argc, char** argv){ // Função principal do programa
+int main(int argc, char** argv){ // Funï¿½ï¿½o principal do programa
 	
 	setlocale(LC_ALL, "portuguese");
 	
-	cout << "+-----------------------------------------------------------------+\n";
-	cout << "Exercicio - 30/09/24 - Padaria Hotpão.\n";
-	cout << "+-----------------------------------------------------------------+\n\n";
+	cout << "+--------------------------------------------+\n";
+	cout << "Exercicio - 30/09/24 - Padaria Hotpï¿½o.\n";
+	cout << "+------------------------------------------+\n\n";
 	
-	// Declaração de variaveis
+	// Declaraï¿½ï¿½o de variaveis
 	int pao, broa;
 	double valor_pao, valor_broa, faturamento;
 	
 	// Entradas de dados
-	cout << "Quantos pães foram vendidos ?\n";
+	cout << "Quantos pï¿½es foram vendidos ?\n";
 	cin >> pao;
 	cout << "\n";
 	valor_pao = pao * 0.35;
@@ -33,7 +33,7 @@ int main(int argc, char** argv){ // Função principal do programa
 	
 	// Saida de dados
 	cout << "O valor total faturado no dia foi: " << faturamento << endl;
-	cout << "Valor destinado a poupança: " << faturamento*0.10;
+	cout << "Valor destinado a poupanï¿½a: " << faturamento*0.10;
 	
 	
 	return 0;
