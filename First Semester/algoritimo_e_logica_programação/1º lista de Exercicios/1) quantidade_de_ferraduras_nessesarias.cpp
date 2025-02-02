@@ -1,20 +1,20 @@
 // "Execicio - 30/09/2024 - 1) Quantidade de ferraduras nessesarias" 
 
-#include <iostream> // Biblioteca para entrada e saída.
-#include <locale>   // Biblioteca para suporte e localidade (Acentuação).
+#include <iostream> // Biblioteca para entrada e saï¿½da.
+#include <locale>   // Biblioteca para suporte e localidade (Acentuaï¿½ï¿½o).
 #include <string>   // Biblioteca para uso de string.
 
 using namespace std;
 
-int main(int argc , char** argv){ // Função principal do programa.
+int main(int argc , char** argv){ // Funï¿½ï¿½o principal do programa.
 	
-	setlocale(LC_ALL, "portuguese"); // Define a licalidade do programa em português.
+	setlocale(LC_ALL, "portuguese"); // Define a licalidade do programa em portuguï¿½s.
 	
 	cout << "+-----------------------------------------------------------------+\n";
 	cout << "Exercicio - 30/09/24 - Quatidade de ferraduras nessesarias.\n";
 	cout << "+-----------------------------------------------------------------+\n\n";
 	
-	// "Declaração de variaveis"
+	// "Declaraï¿½ï¿½o de variaveis"
 	int cavalos, qtd_ferradura;
 	
 	// Entrada de dados
@@ -24,8 +24,8 @@ int main(int argc , char** argv){ // Função principal do programa.
 	
 	qtd_ferradura = cavalos * 4;
 	
-	// Saída de dados 
-	cout << "Você precisa de " << qtd_ferradura << " ferraduras."; 
+	// Saï¿½da de dados 
+	cout << "Vocï¿½ precisa de " << qtd_ferradura << " ferraduras."; 
 	
 	return 0;  
 	 
