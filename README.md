@@ -23,3 +23,6 @@ Não me considero o melhor aluno, o aluno que tira notas boas sempre, o aluno qu
 
 <h4>Vagner</h4> 
   <p>- Mátematica para Programação</p>
+
+<h4>Ederaldo Luiz Ratz</h4> 
+  <p>- Estrutura de Dados</p>
