@@ -12,7 +12,8 @@ Não me considero o melhor aluno, o aluno que tira notas boas sempre, o aluno qu
   <p>- Técnicas de programação</p>
   
 <h4>Orlando</h4> 
-  <p>- Engenharia de Software</p>
+  <p>- Engenharia de Software 1</p>
+  <p>- Desenvolvimento Web 2</p>
 
 <h4>Angela</h4> 
   <p>- Banco de Dados</p>
