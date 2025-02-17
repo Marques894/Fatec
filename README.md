@@ -7,7 +7,7 @@ Não me considero o melhor aluno, o aluno que tira notas boas sempre, o aluno qu
   <p>- Algoritmo e Logica de Programação</p>
   <p>- Bando de dados - Relacionais</p>
   
-<h4>Fernando</h4> 
+<h4>Fernando Bryan Frizzarin</h4> 
   <p>- Sistemas Operacionais e Redes</p>
   <p>- Técnicas de programação</p>
   
