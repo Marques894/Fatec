@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        header{
+            background-color: #666;
+            padding: 30px;
+            text-align: center;
+            color: white;
+        }
+
+        section{
+            display: -webkit-flex;
+            display: flex;
+        }
+
+        nav{
+            -webkit-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            background: #ccc;
+            padding: 20px;
+        }
+
+        nav ul{
+            list-style-type: none;
+            padding: 0;
+        }
+
+        article{
+            -webkit-flex: 3;
+            -ms-flex: 3;
+            flex: 3;
+            background: #f1f1f1;
+            padding: 10px;
+        }
+
+        footer{
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        @media (max-width: 600px) {
+            section{
+                -webkit-flex-direction: column;
+                flex-direction: column;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    
+    <header>
+        <h2>Cidades</h2>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="https://www.google.com/search?q=Sobre+Santorini&sca_esv=9e19fdb118b43033&sca_upv=1&sxsrf=ADLYWIInG2OfbnIP3tSxKoG7nYV_5ODg1Q%3A1725119625014&ei=iTzTZtk9vtrk5Q_fwJHICw&ved=0ahUKEwiZpsazy5-IAxU-LbkGHV9gBLkQ4dUDCBA&uact=5&oq=Sobre+Santorini&gs_lp=Egxnd3Mtd2l6LXNlcnAiD1NvYnJlIFNhbnRvcmluaTIKECMYgAQYJxiKBTIFEAAYgAQyBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeSIsnUOoDWLUkcAJ4AZABAJgB6wGgAYEUqgEGMC4xNi4yuAEDyAEA-AEBmAISoAKcEsICChAAGLADGNYEGEfCAggQABiABBiiBMICCBAuGIAEGLEDwgIHEAAYgAQYCsICBxAuGIAEGArCAggQABiABBixA8ICBRAuGIAEwgINEAAYgAQYsQMYgwEYCsICDRAuGIAEGMcBGAoYrwHCAgoQABiABBixAxgKwgIKEAAYgAQYFBiHAsICEBAuGIAEGMcBGAoYjgUYrwHCAggQABgWGAoYHpgDAIgGAZAGCJIHBjIuMTQuMqAHqZ8B&sclient=gws-wiz-serp">Santorini</a></li>
+
+                <li><a href="https://www.google.com/search?q=Sobre+Veneza&sca_esv=9e19fdb118b43033&sca_upv=1&sxsrf=ADLYWIISLqoGyssFE0icuxhPtYONriRurQ%3A1725119839738&ei=Xz3TZsvdLL-a5OUPqIaigA0&ved=0ahUKEwiLifiZzJ-IAxU_DbkGHSiDCNAQ4dUDCBA&oq=Sobre+Venza&gs_lp=Egxnd3Mtd2l6LXNlcnAiC1NvYnJlIFZlbnphSABQAFgAcAB4AZABAJgBAKABAKoBALgBDMgBAJgCAKACAJgDAOIDBRIBMSBAkgcAoAcA&sclient=gws-wiz-serp">Veneza</a></li>
+
+                <li><a href="https://www.google.com/search?q=sobre+new+york&sca_esv=9e19fdb118b43033&sca_upv=1&sxsrf=ADLYWIKcshQ1l5jnqnIZx3DyA9KLj3lr7Q%3A1725119850522&ei=aj3TZufJH7v75OUPsZm5qAk&oq=Sobre+New&gs_lp=Egxnd3Mtd2l6LXNlcnAiCVNvYnJlIE5ldyoCCAAyChAjGIAEGCcYigUyBRAAGIAEMgUQABiABDIFEAAYgAQyBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB5Igx9Q9wNYlRRwAXgBkAEAmAGRAaAB8AiqAQMwLjm4AQPIAQD4AQGYAgqgAqgJwgIKEAAYsAMY1gQYR8ICChAAGIAEGBQYhwLCAgUQLhiABMICCBAuGIAEGLEDwgIIEAAYgAQYsQPCAgcQABiABBgKwgIHEC4YgAQYCpgDAIgGAZAGCJIHAzEuOaAHi1Q&sclient=gws-wiz-serp">New York</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <h1>Santorini</h1>
+            <p>Com uma história rica e fascinante, Santorini tem suas raízes na antiga civilização minoica. Acredita-se que a ilha tenha sido habitada desde o século III a.C., mas foi no século XV a.C. que um evento cataclísmico mudou para sempre sua paisagem. Uma erupção vulcânica maciça resultou no colapso do centro da ilha, criando uma caldeira submersa e as características falésias que Santorini é famosa por hoje. <br><br>
+
+                Santorini consiste em um grupo de ilhas, sendo a principal Thira, onde a maioria dos visitantes se hospeda. Outras ilhas notáveis incluem Thirassia e as ilhotas de Nea Kameni e Palea Kameni, que são formadas pelos restos vulcânicos. <br><br>
+                
+                A arquitetura das casas tradicionais de Santorini também é uma atração local, com suas paredes brancas e cúpulas azuis, criando uma paisagem única que se destaca contra o mar azul. </p>
+
+                <img src="assets/santorini.jpg" alt="" width="400px">
+        </article>
+
+        <article>
+            <h1>veneza</h1>
+            <p>Veneza, a capital da região de Vêneto, no norte da Itália, é formada por mais de 100 pequenas ilhas em uma lagoa no Mar Adriático. A cidade não tem estradas, apenas canais (como a via Grand Canal), repletos de palácios góticos e renascentistas. Na praça central, Piazza San Marco, ficam a Basílica de São Marcos, coberta de mosaicos bizantinos, e o campanário, com vista para os telhados vermelhos da cidade.</p>
+
+                <img src="assets/veneza.jpg" alt="" width="400px">
+        </article>
+
+        <article>
+            <h1>New York</h1>
+            <p>A cidade de Nova York compreende 5 distritos situados no encontro do rio Hudson com o Oceano Atlântico. No centro da cidade fica Manhattan, um distrito com alta densidade demográfica que está entre os principais centros comerciais, financeiros e culturais do mundo. Entre seus pontos emblemáticos, destacam-se arranha-céus, como o Empire State Building, e o enorme Central Park. O teatro da Broadway fica em meio às luzes de neon da Times Square.</p>
+
+                <img src="assets/new-york.jpg" alt="" width="400px">
+        </article>
+
+    </section>
+
+    <footer>
+        <p>Rodapé - Exercicio</p>
+    </footer>
+
+</body>
+</html>

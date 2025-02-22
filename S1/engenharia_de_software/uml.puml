@@ -1,0 +1,37 @@
+@startuml
+left to right direction
+
+  actor Professor as p
+  actor Técnico as t
+  actor Aluno as a
+
+  package Relação_Professor {
+    usecase Consultar_Equipamento as co_e
+    usecase Reservar_Equipamento as re
+    
+  }
+
+  p --> co_e
+  p --> re
+
+  package Relação_Técnico {
+    usecase Consultar_Equipamento as co_e1
+    usecase Reservar_Equipamento as re1
+    usecase Cadastrar_Equipamento as ca_e1
+    usecase Editar_Equipamento as ee1
+  }
+
+  t --> co_e1
+  t --> re1
+  t --> ca_e1
+  t --> ee1
+
+  package Relação_Aluno {
+    usecase Consultar_Reserva as co_r2
+  }
+
+  
+  a --> co_r2 
+
+
+@enduml

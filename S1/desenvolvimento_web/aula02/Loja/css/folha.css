@@ -1,0 +1,146 @@
+/* Organizando todo o site em caixa */
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+/* Ajustes em todo site */
+body {
+	font-family: Arial;
+	background: #f1f1f1;
+}
+
+/* Ajustes no cabeçalho principal */
+header {
+	padding: 30px;
+	text-align: center;
+	background: white;
+}
+
+/* Ajustando o tamanho do cabeçalho */
+.header h1 {
+	font-size: 50px;
+}
+
+/* Ajustando a cor e escondendo o conteúdo excedido */
+nav {
+	padding: 10px;
+	overflow: hidden;
+	background-color: #333;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.acessos {
+	width: 60%;
+	display: flex;
+	justify-content:space-around;
+}
+
+.carrinho {
+	width: 15%;
+	display: flex;
+	justify-content: center;
+}
+
+.acessos a {
+	text-decoration: none;
+	color: white;
+}
+
+.carrinho a {
+	text-decoration: none;
+	color: white;
+}
+
+
+
+/* Efeito de cartão */
+.sellcard {
+	background-color: #f1f1f1;
+	padding: 20px;
+	margin-top: 20px;
+	border: 2px solid #333;
+	border-radius: 20px;
+}
+
+/* Correções de estrutura nas colunas */
+.row:after {
+	content: initial;
+	display: table;
+	clear: both;
+}
+
+/* Rodapé */
+.footer {
+	padding: 20px;
+	text-align: center;
+	background: #ddd;
+	margin-top: 20px;
+}
+
+.sellcard {
+	float: left;
+	width: 23.40%;
+	margin: 10px;
+}
+
+.sellcard img {
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;
+}
+
+.descricao {
+	text-align: center;
+	font-size: 15px;
+	font-family: Helvetica, "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	color: #333;
+	line-height: 1.6;
+}
+
+.compra {
+	text-align: center;
+}
+
+.valor {
+	text-align: center;
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
+/* Transformando em um Layout responsivo - telas medias */
+@media screen and (max-width: 800px) {
+
+	.leftcolumn,
+	.rightcolumn {
+		width: 100%;
+		padding: 0;
+	}
+
+	.topnav a {
+		float: none;
+		width: 100%;
+	}
+
+	.sellcard {
+		width: 100%;
+	}
+}
+
+/* Transformando em um Layout responsivo - telas menores */
+@media screen and (max-width: 400px) {
+	.topnav a {
+		float: none;
+		width: 100%;
+	}
+
+	.sellcard {
+		width: 100%;
+	}
+}

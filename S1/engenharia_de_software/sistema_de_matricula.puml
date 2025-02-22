@@ -1,0 +1,8 @@
+@startuml
+left to right direction
+
+  actor Sistemas as u
+  actor Cliente as c
+
+
+@enduml
