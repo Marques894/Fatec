@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=ex04
+comment0.text=Escreva\ um\ pequeno\ programaque\ subtraia\ a\ sua\ idade\ do\ ano\ atual\ e\ mostre\ o\ ano\ que\ voce\ nasceu
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
