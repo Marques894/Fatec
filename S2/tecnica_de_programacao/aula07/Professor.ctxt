@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Professor
+comment1.params=c
+comment1.target=void\ setCurso(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getCurso()
+numComments=3
